@@ -462,7 +462,7 @@ task.spawn(function()
                     break
                 end
 
-                val dir = (targetPos - currentPos).Unit
+                local dir = (targetPos - currentPos).Unit
                 local stepDist = math.min(dist, getgenv().Speed * dt)
                 root.CFrame = CFrame.new(currentPos + (dir * stepDist))
             end
