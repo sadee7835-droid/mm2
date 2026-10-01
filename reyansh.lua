@@ -7,7 +7,7 @@ local CoreGui = game:GetService("CoreGui")
 local lp = Players.LocalPlayer
 
 -- ==========================================
--- CONFIGURATION
+-- CONFIGURATION MAIN KOI CUT NHI KREGA YE 
 -- ==========================================
 getgenv().autoexe = true
 getgenv().AutoFarm = true
