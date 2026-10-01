@@ -480,7 +480,7 @@ task.spawn(function()
             end
 
             if coinsCollectedRound % 15 == 0 then
-                sendWebhook("Milestone Reached 🪙", "Collected " .. coinsCollectedRound .. " coins this round.", 16766720)
+                sendWebhook("Milestone Reached GOT 45 ", "Collected " .. coinsCollectedRound .. " coins this round.", 16766720)
             end
         else
             -- Waits idle if 45 coins are reached, unless combat roles trigger
